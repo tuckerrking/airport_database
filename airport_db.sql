@@ -4,7 +4,7 @@ STATE VARCHAR2(15),
 COUNTRY VARCHAR(30),
 PRIMARY KEY(CNAME));
 
-- Insering values of Table: CITY--
+/* Inserting values into the CITY table*/
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES('Louisville','Kentucky','United States');
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES ('Chandigarh','Chandigarh','India');
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES ('Fort Worth','Texas','United States');
